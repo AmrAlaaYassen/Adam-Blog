@@ -14,12 +14,20 @@
     <body>
         @include('inc.navbar')
 
-        <main role="main" class="container">
+        <main role="main" class="container" style="margin-top: 6%;">
 
             <div class="starter-template">
+                @include('inc.messages')
                 @yield('content')
             </div>
 
           </main>
+
+
+
+          <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+          <script>
+              CKEDITOR.replace( 'article-ckeditor' );
+          </script>
     </body>
 </html>
