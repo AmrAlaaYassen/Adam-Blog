@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('content')
     <a href="/posts" class="btn btn-outline-dark">Back</a>
     @if ($post)

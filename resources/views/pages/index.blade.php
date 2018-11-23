@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('content')
 <div class="jumbotron text-center" style="margin: 5%">
     <h1>Welcome To Laravel Blog </h1>
