@@ -9,7 +9,7 @@
                     <a href="/posts/{{$post->id}}">  {{$post->title}}  </a>
                 </h3>
 
-                <small > written on {{$post->created_at}}</small>
+                <small > written on {{$post->created_at}} By <span style="font-weight:600; ">{{$post->user->name}}</span></></small>
             </div>
         @endforeach
 

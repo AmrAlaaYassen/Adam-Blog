@@ -8,7 +8,8 @@
             {!!$post->body!!}
         </div>
         <hr>
-        <small>written  on {{$post->created_at}}</small>
+        <small > written on {{$post->created_at}} By <span style="font-weight:600; ">{{$post->user->name}}</span></></small>
+
         <hr>
         <a href="{{$post->id}}/edit"  class="btn btn-outline-dark"> Edit </a>
 
