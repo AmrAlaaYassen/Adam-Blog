@@ -3,15 +3,23 @@
 @section('content')
     <a href="/posts" class="btn btn-outline-dark">Back</a>
     @if ($post)
-        <h3>{{$post->title}}</h3>
 
-        <div>
-            {!!$post->body!!}
+        <div class="jumbotron">
+                <h1 class="display-4">{{$post->title}}</h1>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    @if ($post->cover_image!='noImage.jpg')
+                        <img style="height:200px ; width: 200px;" src="/storage/cover_images/{{$post->cover_image}}">
+                    @endif
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    {!!$post->body!!}
+                </div>
+            </div>
+            <hr class="my-4">
+            <p> written on {{$post->created_at}} By <span style="font-weight:600; ">{{$post->user->name}}</span></p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
-        <hr>
-        <small > written on {{$post->created_at}} By <span style="font-weight:600; ">{{$post->user->name}}</span></></small>
-
-        <hr>
         @if (!Auth::guest())
             @if (Auth::user()->id == $post->user_id)
                 <a href="{{$post->id}}/edit"  class="btn btn-outline-dark"> Edit </a>
@@ -30,3 +38,5 @@
         </div>
     @endif
 @endsection
+
+
