@@ -13,15 +13,15 @@ Laravel Blog Project  made as a side project to learn laravel
 <hr>
 <h3> Some Screens</h3>
 <hr>
-<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no1.JPG" style="width:500px ; height:500px;">
+<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no1.JPG" style="width:400px ; height:400px;">
 <hr>
-<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no2.JPG" style="width:500px ; height:500px;">
+<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no2.JPG" style="width:400px ; height:400px;">
 <hr>
-<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no3.JPG" style="width:500px ; height:500px;">
+<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no3.JPG" style="width:400px ; height:400px;">
 <hr>
-<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no4.JPG" style="width:500px ; height:500px;">
+<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no4.JPG" style="width:400px ; height:400px;">
 <hr>
-<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no5.JPG" style="width:500px ; height:500px;">
+<img src="https://github.com/AmrAlaaYassen/Adam-Blog/blob/master/no5.JPG" style="width:400px ; height:400px;">
 
 
 
